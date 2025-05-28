@@ -1,6 +1,7 @@
 # WisPerMed Search Engine
 
-Video tutorial can be found in youtube https://www.youtube.com/watch?v=NIGeFzJA96Y
+A video tutorial can be found on YouTube: [https://www.youtube.com/watch?v=NIGeFzJA96Y](https://www.youtube.com/watch?v=NIGeFzJA96Y)
+> **Note:** We have no connection with the person who created the video, and we did not ask them to create it nor guide them on the search engine.
 
 
 ## 📦 Architecture Overview

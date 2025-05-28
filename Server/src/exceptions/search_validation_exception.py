@@ -1,0 +1,2 @@
+class SearchValidationException(Exception):
+    pass

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "dompurify": "^3.0.6",
+    "qs": "^6.11.2",
+    "query-string": "^8.1.0"
+  }
+}

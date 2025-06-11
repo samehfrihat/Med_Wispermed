@@ -90,7 +90,50 @@ const LoginForm = () => {
             A new search engine for <strong>MEDLINE</strong> supporting <strong>level of evidence</strong> and <strong>biomedical concepts</strong>.
           </Typography>
         </Container>
+
+        
+<Card 
+  sx={{ 
+    backgroundColor: 'background.paper', 
+    mx: 4, 
+    my: 4, 
+    cursor: 'pointer', 
+    '&:hover': { boxShadow: 6 } 
+  }}
+>
+  <CardContent>
+    <Typography variant="body1">
+      A video tutorial can be found on YouTube:&nbsp;
+      <a 
+        href="https://www.youtube.com/watch?v=NIGeFzJA96Y" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        style={{ color: '#1976d2', textDecoration: 'underline' }}
+      >
+        https://www.youtube.com/watch?v=NIGeFzJA96Y
+      </a>
+    </Typography>
+
+    <Box 
+      sx={{ 
+        mt: 2, 
+        pl: 2, 
+        borderLeft: "4px solid #ccc", 
+        color: "text.secondary", 
+        fontStyle: "italic" 
+      }}
+    >
+      <Typography variant="body2">
+        <strong>Note:</strong> We have no connection with the person who created the video, and we did not ask them to create it nor guide them on the search engine.
+      </Typography>
+    </Box>
+  </CardContent>
+</Card>
+
       </box>
+
+
+
       <Box className="containers" id="container"sx={{
                                                       minWidth: '40%', // Ensure minimum width
                                                       display: 'flex',
@@ -348,44 +391,6 @@ const LoginForm = () => {
 
       </Box>
 
-
-<Card 
-  sx={{ 
-    backgroundColor: 'background.paper', 
-    mx: 4, 
-    my: 4, 
-    cursor: 'pointer', 
-    '&:hover': { boxShadow: 6 } 
-  }}
->
-  <CardContent>
-    <Typography variant="body1">
-      A video tutorial can be found on YouTube:&nbsp;
-      <a 
-        href="https://www.youtube.com/watch?v=NIGeFzJA96Y" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        style={{ color: '#1976d2', textDecoration: 'underline' }}
-      >
-        https://www.youtube.com/watch?v=NIGeFzJA96Y
-      </a>
-    </Typography>
-
-    <Box 
-      sx={{ 
-        mt: 2, 
-        pl: 2, 
-        borderLeft: "4px solid #ccc", 
-        color: "text.secondary", 
-        fontStyle: "italic" 
-      }}
-    >
-      <Typography variant="body2">
-        <strong>Note:</strong> We have no connection with the person who created the video, and we did not ask them to create it nor guide them on the search engine.
-      </Typography>
-    </Box>
-  </CardContent>
-</Card>
 
 
     </div>
